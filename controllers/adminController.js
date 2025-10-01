@@ -1,7 +1,7 @@
 const scheduleModel = require('../models/scheduleModel');
 const reportModel = require('../models/reportsModel');
 const userModel = require('../models/userModel');
-const { getValuesFromToken } = require('../service/jwt');
+const { getValuesFromToken } = require('../services/jwt');
 
 exports.getAllUsers = async (req, res) => { 
     // lagay mo logics dito

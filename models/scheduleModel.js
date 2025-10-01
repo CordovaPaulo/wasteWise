@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const reportSchema = new mongoose.Schema({
+const scheduleSchema = new mongoose.Schema({
     zone: { type: String, required: true },
     barangay: { type: String, required: true },
     day: { type: String, required: true },

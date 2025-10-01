@@ -1,7 +1,7 @@
 const scheduleModel = require('../models/scheduleModel');
 const reportModel = require('../models/reportsModel');
-const { getValuesFromToken } = require('../service/jwt');
-const cloudinary = require('../service/cloudinary');
+const { getValuesFromToken } = require('../services/jwt');
+const cloudinary = require('../services/cloudinary');
 const streamifier = require('streamifier');
 
 exports.getAllSchedules = async (req, res) => { 
